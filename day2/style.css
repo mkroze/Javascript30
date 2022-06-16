@@ -1,0 +1,26 @@
+#watch{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin: auto;
+    transform: rotate(90deg);
+}
+.hand{
+    height: 5px;
+    width: 200px;
+    
+    position:absolute;
+    top:200px;
+    transform-origin: 100%;
+    
+}
+.hours{
+    background-color: gold;
+}
+.minutes{
+    background-color: silver;
+}
+.seconds{
+    background-color: black;
+}
